@@ -62,6 +62,7 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
   QFontDatabase::addApplicationFont("../assets/fonts/Inter-Regular.ttf");
   QFontDatabase::addApplicationFont("../assets/fonts/Inter-SemiBold.ttf");
   QFontDatabase::addApplicationFont("../assets/fonts/Inter-Thin.ttf");
+  QFontDatabase::addApplicationFont("../assets/fonts/techno_hideo.ttf");
 
   // no outline to prevent the focus rectangle
   setStyleSheet(R"(
