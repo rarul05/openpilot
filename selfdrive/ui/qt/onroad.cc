@@ -438,9 +438,9 @@ void OnroadHud::paintEvent(QPaintEvent *event) {
   }
 
   // current speed
-  configFont(p, "Techno", 176, "Hideo");
+  configFont(p, "Open Sans", 176, "Bold");
   drawText(p, rect().center().x(), 210, speed);
-  configFont(p, "Techno", 66, "Hideo");
+  configFont(p, "Open Sans", 66, "Regular");
   drawText(p, rect().center().x(), 290, speedUnit, 200);
 
   if (engageable) {
